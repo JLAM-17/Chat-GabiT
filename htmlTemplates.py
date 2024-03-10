@@ -28,7 +28,7 @@ css = '''
 bot_template = '''
 <div class="chat-message bot">
     <div class="avatar">
-        <img src="gabs.jpeg" style="max-height: 78px; max-width: 78px; border-radius: 50%; object-fit: cover;">
+        <img src="https://raw.githubusercontent.com/JLAM-17/Chat-GabiT/main/gabs.jpeg" style="max-height: 78px; max-width: 78px; border-radius: 50%; object-fit: cover;">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
@@ -37,7 +37,7 @@ bot_template = '''
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="{{ url_for('static', filename='juan.jpeg') }}">
+        <img src="https://raw.githubusercontent.com/JLAM-17/Chat-GabiT/main/juan2.jpeg">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
